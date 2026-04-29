@@ -1,0 +1,45 @@
+
+.jobCard{
+  background-color: #5478FF;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap:15px;
+}
+.jobCard h3{
+  color: black;
+}
+.jobCard h3,.jobCard p{
+  margin: 0px;
+}
+
+.buttons-container{
+  display: flex;
+  justify-content: end;
+  column-gap: 10px;
+  margin-top: auto;
+}
+.jobCard button{
+  cursor: pointer;
+  font-size: 1.5rem;
+  border: solid 2px black; 
+  border-radius: 10px;
+  color: black;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete-icon{
+  color: red;
+}
+
+@media (max-width: 480px) {
+  .jobCard{
+    padding: 12px;
+    
+  }
+}

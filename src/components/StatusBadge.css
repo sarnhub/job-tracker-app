@@ -1,0 +1,53 @@
+.status-container p{
+  margin: 0px;
+  flex: 1 1 120px;
+
+  padding: 10px;
+  
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  row-gap: 10px;
+  border-radius: 10px;
+
+  transition: transform 0.2s ease, box-shadow 0.2 ease;
+}
+.status-container p:hover{
+  transform: translateY(-3px);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.badge.applied{
+  background-color: #4caf50;
+  color: white;
+}
+.badge.interview{
+  background-color: #ffb300;
+  color: white;
+}
+.badge.rejected{
+  background-color: #e53935;
+  color: white;
+}
+
+span{
+  font-size: clamp(0.8rem,1.5vw,1rem);
+  opacity: 0.7;
+}
+strong{
+  font-weight: bold;
+  font-size: clamp(1.4rem,3vw,2rem);
+}
+
+@media (max-width: 768px) {
+  .status-container p{
+    padding: 5px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .status-container p{
+    padding: 5px 20px;
+  }
+}

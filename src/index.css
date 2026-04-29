@@ -1,0 +1,45 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Bungee',Arial, Helvetica, sans-serif;
+  margin: 0px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+html.dark body{
+  background-color: #121212;
+  color: #f5f5ff;
+}
+
+html.dark .navbar{
+  background-color: #2C3930;
+}
+
+html.dark .jobCard{
+  background-color: #222831;
+  color: rgba(255, 255, 255, 0.6);
+}
+html.dark .jobCard h3{
+  color: #948979;
+}
+
+html.dark .badge.applied{
+  background-color: #444844;
+}
+html.dark .badge.interview{
+  background-color: #444844;
+}
+html.dark .badge.rejected{
+  background-color: #444844;
+}
+
+html.dark .add-link-icon{
+  color: white;
+}
+
+html.dark .form-card{
+  background-color: #2a2a2a;
+}
